@@ -1,0 +1,9 @@
+*.class
+*.jar
+*.war
+target/
+pom.xml.*
+.vscode/
+.code-workspace
+
+.DS_Store

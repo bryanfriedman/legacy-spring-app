@@ -1,0 +1,7 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.example.ReplaceSystemOutWithLogger
+recipeList:
+  - org.openrewrite.java.logging.SystemOutToLogging:
+      addLogger: "True"
+      loggingFramework: SLF4J
+      level: info
