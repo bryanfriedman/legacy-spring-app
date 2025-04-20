@@ -1,5 +1,5 @@
 APP_NAME := legacy-spring-app
-ORG_NAME := example
+ORG_NAME := bryanfriedman
 
 .PHONY: container
 container: package
